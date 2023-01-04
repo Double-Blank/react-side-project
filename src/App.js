@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import './App.css';
 import './style.css';
+import Welcome from './welcom'
+import NotFound from './404'
 import Counter from './01/count'
 
 const routes = [
@@ -13,7 +15,7 @@ function App() {
       <div className="App">
         <ul className="sider">
           {routes.map(([label]) => (
-            <li>
+            <li key={label}>
               <Link to={`/${label.replace(" ", "/")}`}>{label}</Link>
             </li>
           ))}
@@ -30,6 +32,9 @@ function App() {
                 </Route>
               )
             })}
+            <Route path="/" element={<Welcome></Welcome>}>
+            </Route>
+            <Route path="*" element={<NotFound></NotFound>}></Route>
           </Routes>
         </div>
       </div>
