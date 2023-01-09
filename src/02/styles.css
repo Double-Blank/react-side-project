@@ -1,0 +1,32 @@
+.d3-simple {
+  height: 1000px;
+  width: 1000px;
+  /* background-color: peachpuff; */
+}
+
+.chart {
+  width: 450px;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.chart .u-line {
+  stroke: #aaa;
+  stroke-dasharray: 2 2;
+}
+
+.chart .u-path {
+  stroke: orange;
+  fill: none;
+}
+
+.chart .u-point circle {
+  fill: orange;
+}
+
+.chart {
+  text-anchor: middle;
+  font: 11px var(--sans-serif);
+  user-select: none;
+}

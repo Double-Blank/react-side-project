@@ -1,0 +1,269 @@
+{
+  "7842": {
+    "name": "decode_reader_62",
+    "start_time": 13329562646,
+    "cost_time": 100930,
+    "sub_nodes": {
+      "7772": {
+        "name": "context_manager_0",
+        "start_time": 13329247401,
+        "cost_time": 101728,
+        "params": {
+          "fit_preload": false,
+          "seek_ready": false,
+          "trim_pos": 0,
+          "get_reader_cost": 101286
+        }
+      },
+      "7844": {
+        "name": "video_reader_3",
+        "start_time": 13329563970,
+        "cost_time": 98215,
+        "params": {
+          "width": 1080,
+          "height": 1920,
+          "codec_id": 28,
+          "bitrate": 15619512,
+          "fps": 30,
+          "ishw": false,
+          "reuse": false,
+          "pts": 0
+        },
+        "prev_nodes": [
+          7772
+        ]
+      }
+    }
+  },
+  "7868": {
+    "name": "transform_48",
+    "start_time": 13329663940,
+    "cost_time": 28730,
+    "prev_nodes": [
+      7842
+    ]
+  },
+  "7881": {
+    "name": "render_layer_effect_216",
+    "start_time": 13329693113,
+    "cost_time": 91,
+    "prev_nodes": [
+      7868
+    ]
+  },
+  "7830": {
+    "name": "decode_reader_62",
+    "start_time": 13329523957,
+    "cost_time": 38580,
+    "sub_nodes": {
+      "7770": {
+        "name": "context_manager_0",
+        "start_time": 13329246213,
+        "cost_time": 67656,
+        "params": {
+          "fit_preload": false,
+          "seek_ready": false,
+          "trim_pos": 0,
+          "get_reader_cost": 67327
+        }
+      },
+      "7833": {
+        "name": "video_reader_3",
+        "start_time": 13329524945,
+        "cost_time": 35511,
+        "params": {
+          "width": 1280,
+          "height": 720,
+          "codec_id": 28,
+          "bitrate": 8569463,
+          "fps": 29,
+          "ishw": true,
+          "reuse": false,
+          "pts": 0
+        },
+        "prev_nodes": [
+          7770
+        ]
+      }
+    }
+  },
+  "7843": {
+    "name": "transform_48",
+    "start_time": 13329562858,
+    "cost_time": 27371,
+    "prev_nodes": [
+      7830
+    ]
+  },
+  "7851": {
+    "name": "render_layer_effect_216",
+    "start_time": 13329590534,
+    "cost_time": 79,
+    "prev_nodes": [
+      7843
+    ]
+  },
+  "7818": {
+    "name": "decode_reader_62",
+    "start_time": 13329481148,
+    "cost_time": 42655,
+    "sub_nodes": {
+      "7769": {
+        "name": "context_manager_0",
+        "start_time": 13329244962,
+        "cost_time": 186307,
+        "params": {
+          "fit_preload": false,
+          "seek_ready": false,
+          "trim_pos": 0,
+          "get_reader_cost": 185776
+        }
+      },
+      "7820": {
+        "name": "video_reader_3",
+        "start_time": 13329482297,
+        "cost_time": 39525,
+        "params": {
+          "width": 1280,
+          "height": 720,
+          "codec_id": 28,
+          "bitrate": 8735131,
+          "fps": 29,
+          "ishw": true,
+          "reuse": false,
+          "pts": 0
+        },
+        "prev_nodes": [
+          7769
+        ]
+      }
+    }
+  },
+  "7831": {
+    "name": "transform_48",
+    "start_time": 13329524165,
+    "cost_time": 26686,
+    "prev_nodes": [
+      7818
+    ]
+  },
+  "7838": {
+    "name": "render_layer_effect_216",
+    "start_time": 13329551092,
+    "cost_time": 83,
+    "prev_nodes": [
+      7831
+    ]
+  },
+  "7774": {
+    "name": "decode_reader_62",
+    "start_time": 13329248329,
+    "cost_time": 232735,
+    "sub_nodes": {
+      "7768": {
+        "name": "context_manager_0",
+        "start_time": 13329243780,
+        "cost_time": 140041,
+        "params": {
+          "fit_preload": false,
+          "seek_ready": false,
+          "trim_pos": 0,
+          "get_reader_cost": 139703
+        }
+      },
+      "7798": {
+        "name": "video_reader_3",
+        "start_time": 13329384987,
+        "cost_time": 94067,
+        "params": {
+          "width": 1280,
+          "height": 720,
+          "codec_id": 28,
+          "bitrate": 8649289,
+          "fps": 29,
+          "ishw": true,
+          "reuse": false,
+          "pts": 0
+        },
+        "prev_nodes": [
+          7768
+        ]
+      }
+    }
+  },
+  "7819": {
+    "name": "transform_48",
+    "start_time": 13329481432,
+    "cost_time": 16165,
+    "prev_nodes": [
+      7774
+    ]
+  },
+  "7823": {
+    "name": "render_layer_effect_216",
+    "start_time": 13329497894,
+    "cost_time": 82,
+    "prev_nodes": [
+      7819
+    ]
+  },
+  "7771": {
+    "name": "decode_reader_62",
+    "start_time": 13329247380,
+    "cost_time": 834
+  },
+  "7775": {
+    "name": "transform_48",
+    "start_time": 13329248617,
+    "cost_time": 10099,
+    "prev_nodes": [
+      7771
+    ]
+  },
+  "7777": {
+    "name": "render_layer_effect_216",
+    "start_time": 13329259119,
+    "cost_time": 64164,
+    "prev_nodes": [
+      7775
+    ]
+  },
+  "7882": {
+    "name": "swing_process_0",
+    "start_time": 13329693201,
+    "cost_time": 1694517,
+    "params": {
+      "canvas_width": 1080,
+      "canvas_height": 1920,
+      "canvas_rotate": 0.0,
+      "media_time": 0
+    },
+    "prev_nodes": [
+      7881,
+      7851,
+      7838,
+      7823,
+      7777
+    ]
+  },
+  "8114": {
+    "name": "video_compile_bin_136",
+    "start_time": 13331388189,
+    "cost_time": 59881,
+    "prev_nodes": [
+      7882
+    ]
+  },
+  "8115": {
+    "name": "encode_write_139",
+    "start_time": 13331448303,
+    "cost_time": 252143,
+    "params": {
+      "result": 0
+    },
+    "prev_nodes": [
+      8114
+    ],
+    "total_time": 2453066
+  }
+}

@@ -4,9 +4,13 @@ import './style.css';
 import Welcome from './welcom'
 import NotFound from './404'
 import Counter from './01/count'
+import TestWithD3 from './02/d3'
+import D3Move from './03/d3'
 
 const routes = [
-  ["01 Counter", Counter]
+  ["01 Counter", Counter],
+  ["02 D3", TestWithD3],
+  ["03 D3-Move", D3Move]
 ]
 
 function App() {
