@@ -50,6 +50,10 @@ export default function VideoJS() {
         player.poster('https://vjs.zencdn.net/v/oceans.png');
       },
     );
+    player.on('ended', () => {
+      player.currentTime(0);
+      player.play();
+    });
   })
 
   return (
