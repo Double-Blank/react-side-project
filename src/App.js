@@ -7,12 +7,14 @@ import Counter from './01/count'
 import TestWithD3 from './02/d3'
 import D3Move from './03/d3'
 import VideoJS from './04/videoJS'
+import Pannellum from './05/index'
 
 const routes = [
   ["01 Counter", Counter],
   ["02 D3", TestWithD3],
   ["03 D3-Move", D3Move],
-  ["04 VideoJS", VideoJS]
+  ["04 VideoJS", VideoJS],
+  ["05 pannellum", Pannellum],
 ]
 
 function App() {
